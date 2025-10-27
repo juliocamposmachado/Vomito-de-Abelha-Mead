@@ -8,6 +8,7 @@ import TestimonialSection from './components/TestimonialSection';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import BeeFollower from './components/BeeFollower';
+import BeeSound from './components/BeeSound';
 
 function App() {
   useEffect(() => {
@@ -43,6 +44,7 @@ function App() {
       <Footer />
       <WhatsAppButton />
       <BeeFollower />
+      <BeeSound />
     </div>
   );
 }
