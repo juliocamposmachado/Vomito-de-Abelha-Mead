@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a0f00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="200" cy="150" r="40" fill="#f59e0b" opacity="0.1"/>
+  <circle cx="1000" cy="500" r="60" fill="#fbbf24" opacity="0.1"/>
+  <circle cx="600" cy="80" r="30" fill="#f59e0b" opacity="0.15"/>
+
+  <text x="600" y="200" font-family="serif" font-size="80" font-weight="bold" fill="url(#gold)" text-anchor="middle" filter="url(#glow)">
+    Vômito de Abelha
+  </text>
+
+  <text x="600" y="150" font-size="100" text-anchor="middle">🐝</text>
+
+  <text x="600" y="280" font-family="serif" font-size="36" fill="#fbbf24" text-anchor="middle" opacity="0.9">
+    Hidromel Artesanal de Alta Fermentação
+  </text>
+
+  <line x1="400" y1="320" x2="800" y2="320" stroke="#f59e0b" stroke-width="2" opacity="0.5"/>
+
+  <text x="600" y="400" font-family="serif" font-size="28" fill="#fde68a" text-anchor="middle" opacity="0.8">
+    A Alquimia do Mestre Marcelo de Oliveira
+  </text>
+
+  <text x="600" y="450" font-family="serif" font-size="24" fill="#fde68a" text-anchor="middle" opacity="0.7">
+    Fermentado sob medida • Maturação mínima de 4 meses
+  </text>
+
+  <text x="200" y="560" font-size="60" opacity="0.3">✨</text>
+  <text x="1000" y="120" font-size="50" opacity="0.3">🍯</text>
+  <text x="100" y="400" font-size="45" opacity="0.2">🐝</text>
+</svg>
