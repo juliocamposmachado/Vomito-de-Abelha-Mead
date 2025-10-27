@@ -110,15 +110,15 @@ export default function FableSection() {
             </p>
             <div className="flex justify-center">
               <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-amber-500/30 hover:border-amber-500/60 transition-all duration-500">
-                <iframe
-                  src="https://skybox.blockadelabs.com/e/9a9f2122780179024a221fe2f3a5163c
-                  width="700"
-                  height="700"
-                  style={{ border: 0 }}
-                  allow="fullscreen"
-                  title="Fábrica Alquímica - Vômito de Abelha"
-                  className="max-w-full"
-                ></iframe>
+
+<iframe src="https://skybox.blockadelabs.com/e/9a9f2122780179024a221fe2f3a5163c" width=700 height=700 style="border:0;" allow="fullscreen"></iframe>
+
+
+
+
+
+                
+              
               </div>
             </div>
           </div>
