@@ -100,6 +100,28 @@ export default function FableSection() {
               e à alquimia invisível que transforma o simples em divino.
             </p>
           </div>
+
+          <div className="mt-16">
+            <h3 className="text-3xl font-bold text-amber-400 text-center mb-8">
+              A Fábrica Alquímica
+            </h3>
+            <p className="text-amber-100/90 text-center mb-8 max-w-2xl mx-auto">
+              Explore o ateliê onde a alquimia acontece — onde o néctar das abelhas se transforma em elixir dourado.
+            </p>
+            <div className="flex justify-center">
+              <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-amber-500/30 hover:border-amber-500/60 transition-all duration-500">
+                <iframe
+                  src="https://skybox.blockadelabs.com/e/4c022fc9ad30e0ba230c984e0d28543c"
+                  width="700"
+                  height="700"
+                  style={{ border: 0 }}
+                  allow="fullscreen"
+                  title="Fábrica Alquímica - Vômito de Abelha"
+                  className="max-w-full"
+                ></iframe>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
