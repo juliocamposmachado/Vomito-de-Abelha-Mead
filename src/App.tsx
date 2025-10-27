@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
+import FableSection from './components/FableSection';
 import FormSection from './components/FormSection';
 import TestimonialSection from './components/TestimonialSection';
 import Footer from './components/Footer';
@@ -33,6 +34,7 @@ function App() {
     <div className="min-h-screen bg-black text-amber-100">
       <HeroSection />
       <AboutSection />
+      <FableSection />
       <TestimonialSection />
       <FormSection />
       <Footer />
