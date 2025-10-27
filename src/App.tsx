@@ -6,6 +6,7 @@ import FormSection from './components/FormSection';
 import TestimonialSection from './components/TestimonialSection';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import BeeFollower from './components/BeeFollower';
 
 function App() {
   useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
       <FormSection />
       <Footer />
       <WhatsAppButton />
+      <BeeFollower />
     </div>
   );
 }

@@ -71,6 +71,15 @@
     to { opacity: 1; transform: translateY(0); }
   }
 
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(-5deg); }
+    50% { transform: translateY(-10px) rotate(5deg); }
+  }
+
+  .animate-bounce-slow {
+    animation: float 2s ease-in-out infinite;
+  }
+
   .alchemical-border {
     border: 2px solid #daa520;
     background: linear-gradient(135deg, rgba(218, 165, 32, 0.1), rgba(184, 134, 11, 0.1));
