@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import FableSection from './components/FableSection';
+import SkyboxSection from './components/SkyboxSection';
 import FormSection from './components/FormSection';
 import TestimonialSection from './components/TestimonialSection';
 import Footer from './components/Footer';
@@ -36,6 +37,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <FableSection />
+      <SkyboxSection />
       <TestimonialSection />
       <FormSection />
       <Footer />
